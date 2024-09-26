@@ -42,6 +42,8 @@ public class Kafe21 {
             case 'L':
                 totalHarga += 0.4 * totalHarga;
                 break;
+            default:
+                System.out.println("gaada ukuran itu");
         }  
 
         double diskon = keanggotaan ? 0.1 : 0;
